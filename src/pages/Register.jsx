@@ -43,7 +43,7 @@ export default function Register() {
     setMessage("");
   
     try {
-      const response = await Axios.post("https://backend-server-2kzn.onrender.com/register", 
+      const response = await Axios.post("https://backend-server-e651.onrender.com/register", 
         { 
           username: formData.name, // Change 'name' to 'username' to match backend
           email: formData.email, 

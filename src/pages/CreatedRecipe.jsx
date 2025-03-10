@@ -14,7 +14,7 @@ const CreatedRecipes = () => {
 
   const fetchUserRecipes = async () => {
     try {
-      const response = await fetch(`https://backend-server-2kzn.onrender.com/recipes/${userId}`);
+      const response = await fetch(`https://backend-server-e651.onrender.com/recipes/${userId}`);
       if (!response.ok) {
         throw new Error(`HTTP error! Status: ${response.status}`);
       }
